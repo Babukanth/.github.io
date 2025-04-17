@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Investment Calculator</h1>
+        <input type="number" id="investmentAmount" placeholder="Enter Investment Amount">
+        <input type="number" id="lossGainAmount" placeholder="Enter Loss/Gain Amount">
+        <button onclick="addInvestment()">Add Investment</button>
+        <button onclick="addLossGain()">Add Loss/Gain</button>
+        <p id="totalInvestment">Total Investment: 0</p>
+        <p id="totalLoss">Total Loss: 0</p>
+        <p id="totalGain">Total Gain: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
